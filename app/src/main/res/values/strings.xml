@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Work Manager Sample</string>
+
+    <string name="channelId">worker</string>
+    <string name="channelName">Worker Channel</string>
+    <string name="notificationTitle">Your Custom Work</string>
+    <string name="notificationDesc">Your Custom Work Is Finished</string>
+    <string name="performWork">Perform Work</string>
+    <string name="workDescription">Hey I\'m Sending The Work Data</string>
+    <string name="workFinished">Work Finished Successfully</string>
+</resources>
