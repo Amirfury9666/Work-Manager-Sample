@@ -10,6 +10,14 @@ import com.fury.workmanager.extension.string
 import com.fury.workmanager.utility.Constants
 import com.fury.workmanager.workmanager.TaskWorker
 
+
+/***
+ * Created By Amir Fury on December 3 2021
+ *
+ * Email: Fury.amir93@gmail.com
+ * */
+
+
 class HomeActivity : BaseActivity<ActivityHomeBinding>() {
 
     private val workManager by lazy { WorkManager.getInstance(this) }

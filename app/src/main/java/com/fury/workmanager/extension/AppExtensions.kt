@@ -5,6 +5,14 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 
+
+/***
+ * Created By Amir Fury on December 3 2021
+ *
+ * Email: Fury.amir93@gmail.com
+ * */
+
+
 fun Any.isGreaterThanOrEqualToOreo(): Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
 
 fun Any.isGreaterThanOrEqualToMarshmello(): Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M

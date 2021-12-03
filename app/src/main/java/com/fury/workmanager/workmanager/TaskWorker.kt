@@ -9,6 +9,14 @@ import com.fury.workmanager.R
 import com.fury.workmanager.extension.string
 import com.fury.workmanager.utility.Constants
 
+/***
+ * Created By Amir Fury on December 3 2021
+ *
+ * Email: Fury.amir93@gmail.com
+ * */
+
+
+
 class TaskWorker(context: Context, workerParams: WorkerParameters) : Worker(context, workerParams) {
 
     override fun doWork(): Result {
